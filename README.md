@@ -1,8 +1,8 @@
 # WORTH_workshops
 
-How to put this folder and its Jupyter notebooks on your PYNQ board.
+How to put this folder and its Jupyter notebooks on your Pynq board.
 
-First, determine if your PYNQ board can access the internet by opening a terminal on it (open 192.168.2.99 in the browser, log in, and choose terminal) and trying to ping github.com. If it cannot get to github.com, then either troubleshoot with these instructions:
+First, determine if your Pynq board can access the internet by opening a terminal on it (open 192.168.2.99 in the browser, log in, and choose terminal) and trying to ping github.com. If it cannot get to github.com, then either troubleshoot with these instructions:
     https://www.nengo.ai/nengo-pynq/connect.html 
 
 Note that you may also need to change the board's IP address to make this work.
@@ -11,9 +11,9 @@ Or skip to method 2.
 
 ## Method 1
 
-Assumes you have internet access on your pynq board. Open a terminal window on the board (or ssh to it), then:
+Assumes you have internet access on your Pynq board. Open a terminal window on the board (or ssh to it), then:
 
-On your pynq board, add git if not there:
+On your Pynq board, add git if not there:
 
     sudo apt-install git
 
@@ -35,3 +35,7 @@ and then scp or use a network drive connection to copy the files to the pynq boa
 Linux and MAC have scp; Windows can get scp from MinGW. 
 
 If you don't want to install MinGW, you can use a network drive like so: https://pynq.readthedocs.io/en/v2.0/getting_started.html#accessing-files-on-the-board
+
+## After copying
+
+Once you have WORTH_workshops on the Pynq board, you can navigate to it through Pynq's web interface and open the Jupyter notebook(s) contained within it.
