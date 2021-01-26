@@ -8,6 +8,7 @@ On your pynq board, add git if not there:
 
 and then
 
+    cd /home/xilinx/jupyter_notebooks/
     git clone https://github.com/argoc/WORTH_workshops.git
 
 Or if it cannot see the internet, do the git clone on a local machine and then scp or use a network drive connection to copy the files to the pynq board, i.e.:
