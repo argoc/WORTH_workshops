@@ -1,6 +1,4 @@
-# WORTH_workshops
-
-How to put this folder and its Jupyter notebooks on your Pynq board.
+# How to put this folder and its Jupyter notebooks on your Pynq board.
 
 First, determine if your Pynq board can access the internet by opening a terminal on it (open 192.168.2.99 in the browser, log in, and choose terminal) and trying to ping github.com. If it cannot get to github.com, then either troubleshoot with these instructions:
     https://www.nengo.ai/nengo-pynq/connect.html 
