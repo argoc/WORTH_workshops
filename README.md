@@ -20,7 +20,7 @@ and then
 
 ## Method 2
 
-If your board cannot access the internet, do the git clone on your local machine:
+If your board cannot access the internet, do the git clone on your local machine (need git? https://git-scm.com/download):
 
     git clone https://github.com/argoc/WORTH_workshops.git
 
@@ -28,7 +28,7 @@ and then scp or use a network drive connection to copy the files to the pynq boa
 
     scp -r WORTH_workshops xilinx@pynq:/home/xilinx/jupyter_notebooks/
 
-Linux and MAC have scp; Windows can get scp from MinGW. 
+Linux and MAC have scp; Windows can get scp from MinGW (https://sourceforge.net/projects/mingw-w64/files/latest/download). 
 
 If you don't want to install MinGW, you can use a network drive like so: https://pynq.readthedocs.io/en/v2.0/getting_started.html#accessing-files-on-the-board
 
