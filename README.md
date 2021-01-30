@@ -11,7 +11,7 @@ If you have internet access on your Pynq board, use this method. Open a terminal
 
 On your Pynq board, add git if not there:
 
-    sudo apt-install git
+    sudo apt-get install git
 
 and then
 
