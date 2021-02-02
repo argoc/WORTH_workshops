@@ -1,5 +1,7 @@
 # How to put this folder and its Jupyter notebooks on your Pynq board.
 
+Already did this and want to get the new stuff? [Jump ahead](#update)
+
 First, determine if your Pynq board can access the internet by opening a terminal on it (open 192.168.2.99 in the browser, log in, and choose terminal) and trying to ping github.com. If it cannot get to github.com, then either troubleshoot with these instructions or skip to method 2:
     https://www.nengo.ai/nengo-pynq/connect.html 
 
@@ -35,3 +37,21 @@ If you don't want to install MinGW, you can use a network drive like so: https:/
 ## After copying
 
 Once you have WORTH_workshops on the Pynq board, you can navigate to it through Pynq's web interface and open the Jupyter notebook(s) contained within it.
+
+
+## Get the next workshop material<a name="update"></a>
+
+If you need to get the new stuff onto your PYNQ board, if your board can see the internet, then open a terminal window through the browser, and issue these commands:
+
+    cd jupyter_notebooks/WORTH_workshops
+    git pull
+
+If you run into any issues with this, contact one of your workshop teachers for assistance.
+
+If you need to get the new stuff onto your PYNQ board, and your board can't see the internet, then open a command window on your PC where you did the git clone and issue these commands:
+
+    cd WORTH_workshops
+    git pull
+    scp -r workshop_2 xilinx@pynq:/home/xilinx/jupyter_notebooks/WORTH_workshops/
+
+If you run into any issues with this, contact one of your workshop teachers for assistance. Note this pulls over workshop_2 material; repeat as appropriate for workshop_3 and workshop_4. If you need a completely new copy, contact one of your workshop TAs/teachers for assistance.
