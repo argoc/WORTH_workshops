@@ -52,6 +52,9 @@ If you need to get the new stuff onto your PYNQ board, and your board can't see 
 
     cd WORTH_workshops
     git pull
-    scp -r workshop_2 xilinx@pynq:/home/xilinx/jupyter_notebooks/WORTH_workshops/
+    scp -r workshop_1_solution xilinx@pynq:/home/xilinx/jupyter_notebooks/WORTH_workshops/
 
-If you run into any issues with this, contact one of your workshop teachers for assistance. Note this pulls over workshop_2 material; repeat as appropriate for workshop_3 and workshop_4. If you need a completely new copy, contact one of your workshop TAs/teachers for assistance.
+(if cd does not work, use chdir instead ... cd assumes mingw is on your system)
+(your "scp" might be done through File Explorer/Finder on a MAC like you did in the initial setup if the actual scp command isn't working on your machine).
+
+If you run into any issues with this, contact one of your workshop teachers for assistance. Note this pulls over workshop_1_soluton material; repeat as appropriate for workshop_2 and workshop_3. If you need a completely new copy, contact one of your workshop TAs/teachers for assistance.
