@@ -57,4 +57,4 @@ If you need to get the new stuff onto your PYNQ board, and your board can't see 
 (if cd does not work, use chdir instead ... cd assumes mingw is on your system)
 (your "scp" might be done through File Explorer/Finder on a MAC like you did in the initial setup if the actual scp command isn't working on your machine).
 
-If you run into any issues with this, contact one of your workshop teachers for assistance. Note this pulls over workshop_1_soluton material; repeat as appropriate for workshop_2 and workshop_3. If you need a completely new copy, contact one of your workshop TAs/teachers for assistance.
+If you run into any issues with this, contact one of your workshop teachers for assistance. Note this pulls over workshop_1_solution material; repeat as appropriate for workshop_2 and workshop_3 and their solutions. If you need a completely new copy, contact one of your workshop TAs/teachers for assistance.
