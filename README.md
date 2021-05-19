@@ -32,6 +32,12 @@ and click + to add it to your Favorite Servers, then click Connect.
 When prompted, enter username xilinx, password xilinx, and remember this password, then click Connect.
 You now have access to the Pynq board on your Mac; you should put all new notebooks under jupyter_notebooks so they show up in the Pynq web interface.
 
+On both platforms, once you have the Pynq board's drive accessible on your machine, you can open a GitBash/Terminal window and get to the jupyter_notebooks folder (google "open terminal on folder" for a MAC, or right click on the folder and click "open GitBash here" on a PC), then issue the following command:
+
+    git clone https://github.com/argoc/WORTH_workshops.git
+
+You now will see WORTH_workshops on the web interface for the Pynq board (you may need to refresh it in the browser).
+
 ## Method 3
 
 If your board cannot access the internet, and you can't mount it as a network drive on your PC, do the git clone on your local machine (need git? https://git-scm.com/download):
