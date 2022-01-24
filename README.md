@@ -1,9 +1,9 @@
 # How to put this folder and its Jupyter notebooks on your Pynq board.
 
-First, determine if your Pynq board can access the internet by opening a terminal on it (open 192.168.2.99 in the browser, log in, and choose terminal) and trying to ping github.com. If it cannot get to github.com, then either troubleshoot with these instructions or skip to method 2:
+First, determine if your Pynq board can access the internet by opening a terminal on it (open 192.168.2.99:9090 - or your board's IP address if different - in the browser, log in, and make a new terminal (New->Terminal)) and trying to ping github.com. If it cannot get to github.com, then either troubleshoot with these instructions or skip to method 2:
     https://www.nengo.ai/nengo-pynq/connect.html 
 
-Note that you may also need to change the board's IP address to make this work (on Windows).
+Note that you may also need to change the board's IP address to make this work (on Windows). [we've had no success on recent Windows 10 updates with this.]
 
 ## Method 1
 
